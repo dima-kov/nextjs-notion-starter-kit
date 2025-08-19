@@ -17,6 +17,9 @@ export const getStaticProps = async () => {
   }
 }
 
+
+// EnsureUI: page is loaded
+
 export default function NotionDomainPage(props: PageProps) {
   return <NotionPage {...props} />
 }
